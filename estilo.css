@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: #ebecec;
+}
+header {
+  background-image: url(./01.jpeg);
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-perfil-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.perfil-header {
+  width: 10%;
+  height: max-content 5%;
+  border-radius: 100%;
+  border: 3px solid rgb(65, 65, 65);
+}
+.text-header {
+  color: aliceblue;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-family: "Lato", sans-serif;
+  font-size: 400%;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px #616161;
+}
+.profession {
+  font-family: "Lato", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 250%;
+  -webkit-text-stroke: 0.1px #616161;
+  font-weight: bold;
+}
+nav {
+  margin-top: 30%;
+  color: aliceblue;
+  display: flex;
+  gap: 30%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: rgb(225, 225, 225);
+  background-color: black;
+}
+h1,
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 20pt;
+  margin: 30px 0 0 25px;
+}
+.back {
+  text-align: end;
+  color: blue;
+}
+.resumo,
+.xp,
+.back,
+.projects,
+.contact-master {
+  margin: 30px 20px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.box-image-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.golden,
+.imple,
+.calc {
+  width: 50%;
+  border-radius: 10px;
+}
+.project-site02,
+.project-site01,
+.project-calc {
+  width: 50%;
+}
+.text-site02,
+.text-site01,
+.text-calc {
+  width: 50%;
+  text-align: center;
+}
+.project-calc,
+.project-site01,
+.project-site02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 5px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.gmail-box,
+.insta-box,
+.likedin-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid #ff0043;
+  border-radius: 20px;
+  background-color: black;
+  width: 20%;
+}
+
+.likedin,
+.insta,
+.gmail {
+  width: 30%;
+}
+
+.footer {
+  padding: 50px 0 50px 0;
+  background-color: rgb(000, 000, 255);
+  text-align: center;
+}
